@@ -25,17 +25,17 @@ These scales serve as "parent" scales where most chords used in that stylistic p
 
 The seven pressing scales are:
 
-| Scale Navigator Index | Scale Class | Example (from C) |
-|-----------------------|-------------|------------------|
-| 0 | **Diatonic** | C D E F G A B |
-| 1 | **Acoustic** | C D E F# G A Bb |
-| 2 | **Harmonic Major** | C D E F G Ab B |
-| 3 | **Harmonic Minor** | C D Eb F G Ab B |
-| 4 | **Whole Tone** | C D E F# G# A# |
-| 5 | **Octatonic** | C Db Eb E F# G A Bb |
-| 6 | **Hexatonic** | C D# E G Ab B |
+| Scale Navigator Index | Scale Class | Example (from C) | Notes |
+|-----------------------|-------------|------------------|-------|
+| 0 | **Diatonic** | C D E F G A B | 7 notes |
+| 1 | **Acoustic** | C D E F# G A Bb | 7 notes |
+| 2 | **Harmonic Major** | C D E F G Ab B | 7 notes |
+| 3 | **Harmonic Minor** | C D Eb F G Ab B | 7 notes |
+| 4 | **Whole Tone** | C D E F# G# A# | 6 notes, Messiaen Mode 1 |
+| 5 | **Octatonic** | C Db Eb E F# G A Bb | 8 notes, Messiaen Mode 2 |
+| 6 | **Hexatonic** | C D# E G Ab B | 6 notes |
 
-Unfortunately, **Ableton does not include Hexatonic** as one of its 35 scale options. This is a significant omission for anyone working with late-Romantic or post-tonal harmony.
+Unfortunately, **Ableton does not include Hexatonic** as one of its 35 scale options—yet it *does* include Messiaen modes 3-7, which are not pressing scales (they all contain consecutive semitones). This is a significant omission for anyone working with late-Romantic or post-tonal harmony.
 
 ## Scale Class Indexing: Scale Navigator vs. Ableton
 
@@ -73,13 +73,13 @@ Scale Navigator uses a clean 7-index system for scale classes. But to communicat
 | 27 | Kumoi | — | ~~not pressing~~ |
 | 28 | Pelog Selisir | — | ~~not pressing~~ |
 | 29 | Pelog Tembung | — | ~~not pressing~~ |
-| 30 | Messiaen 3 | — | ~~not pressing~~ |
-| 31 | Messiaen 4 | — | ~~not pressing~~ |
-| 32 | Messiaen 5 | — | ~~not pressing~~ |
-| 33 | Messiaen 6 | — | ~~not pressing~~ |
-| 34 | Messiaen 7 | — | ~~not pressing~~ |
+| 30 | Messiaen 3 | — | ~~consecutive semitones~~ |
+| 31 | Messiaen 4 | — | ~~consecutive semitones~~ |
+| 32 | Messiaen 5 | — | ~~consecutive semitones~~ |
+| 33 | Messiaen 6 | — | ~~consecutive semitones~~ |
+| 34 | Messiaen 7 | — | ~~consecutive semitones~~ |
 
-**Note:** Messiaen modes 3-7 are **not** pressing scales (they contain two consecutive half steps). Meanwhile, **Hexatonic (Messiaen Mode 1)**, which *is* a pressing scale, is missing from Ableton entirely.
+**Note:** Messiaen modes 3-7 all contain consecutive semitones, so they are not pressing scales. Meanwhile, **Hexatonic**, which *is* a pressing scale, is missing from Ableton entirely. (Whole Tone = Messiaen Mode 1, Octatonic = Messiaen Mode 2.)
 
 ## MIDI Protocol
 
