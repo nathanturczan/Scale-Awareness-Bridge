@@ -14,24 +14,26 @@ A much more elegant approach is to think in terms of **scale classes**.
 
 ### Pressing Scales
 
-Scale Navigator organizes scales using the concept of **pressing scales**, a term coined by Dmitri Tymoczko in his article ["Scale Networks and Debussy"](http://dmitri.mycpanel.princeton.edu/debussy.pdf). Pressing scales are scales where you can move any single note by a semitone and arrive at another valid scale—they form connected networks of closely related sonorities.
+Scale Navigator organizes scales using the concept of **pressing scales**, a term coined by Dmitri Tymoczko in his article ["Scale Networks and Debussy"](http://dmitri.mycpanel.princeton.edu/debussy.pdf).
 
-The seven-note pressing scales that are most useful for tonal and post-tonal music are:
+Pressing scales are a set of 7 specific musical scales that define the harmonic vocabulary of late-Romantic and 20th-century music (Debussy, Stravinsky, etc.). They are characterized by:
 
-| Scale Navigator Index | Scale Class |
-|-----------------------|-------------|
-| 0 | **Diatonic** (Major/Minor and modes) |
-| 1 | **Acoustic** (Melodic Minor and modes) |
-| 2 | **Harmonic Major** (and modes) |
-| 3 | **Harmonic Minor** (and modes) |
+1. **No consecutive semitones** — no two adjacent scale degrees are a half-step apart
+2. **Diatonic thirds** — notes two scale steps apart form minor or major thirds
 
-Additionally, Messiaen's **Modes of Limited Transposition** are also pressing scales:
+These scales serve as "parent" scales where most chords used in that stylistic period can be found as subsets.
 
-| Scale Navigator Index | Scale Class |
-|-----------------------|-------------|
-| 4 | **Whole Tone** (6 notes, 2 transpositions) |
-| 5 | **Octatonic** (8 notes, 3 transpositions) |
-| 6 | **Hexatonic** (6 notes, 4 transpositions) |
+The seven pressing scales are:
+
+| Scale Navigator Index | Scale Class | Example (from C) |
+|-----------------------|-------------|------------------|
+| 0 | **Diatonic** | C D E F G A B |
+| 1 | **Acoustic** | C D E F# G A Bb |
+| 2 | **Harmonic Major** | C D E F G Ab B |
+| 3 | **Harmonic Minor** | C D Eb F G Ab B |
+| 4 | **Whole Tone** | C D E F# G# A# |
+| 5 | **Octatonic** | C Db Eb E F# G A Bb |
+| 6 | **Hexatonic** | C D# E G Ab B |
 
 Unfortunately, **Ableton does not include Hexatonic** as one of its 35 scale options. This is a significant omission for anyone working with late-Romantic or post-tonal harmony.
 
@@ -71,13 +73,13 @@ Scale Navigator uses a clean 7-index system for scale classes. But to communicat
 | 27 | Kumoi | — | ~~not pressing~~ |
 | 28 | Pelog Selisir | — | ~~not pressing~~ |
 | 29 | Pelog Tembung | — | ~~not pressing~~ |
-| 30 | Messiaen 3 | Messiaen 3 | Yes |
-| 31 | Messiaen 4 | Messiaen 4 | Yes |
-| 32 | Messiaen 5 | Messiaen 5 | Yes |
-| 33 | Messiaen 6 | Messiaen 6 | Yes |
-| 34 | Messiaen 7 | Messiaen 7 | Yes |
+| 30 | Messiaen 3 | — | ~~not pressing~~ |
+| 31 | Messiaen 4 | — | ~~not pressing~~ |
+| 32 | Messiaen 5 | — | ~~not pressing~~ |
+| 33 | Messiaen 6 | — | ~~not pressing~~ |
+| 34 | Messiaen 7 | — | ~~not pressing~~ |
 
-**Note:** Messiaen modes 3-7 are included but **Hexatonic (Messiaen Mode 1 with 6 notes) is missing** from Ableton entirely.
+**Note:** Messiaen modes 3-7 are **not** pressing scales (they contain two consecutive half steps). Meanwhile, **Hexatonic (Messiaen Mode 1)**, which *is* a pressing scale, is missing from Ableton entirely.
 
 ## MIDI Protocol
 
