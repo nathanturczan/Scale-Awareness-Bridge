@@ -25,15 +25,44 @@ These scales serve as "parent" scales where most chords used in that stylistic p
 
 The seven pressing scales are:
 
-| Scale Navigator Index | Scale Class | Example (from C) | Notes |
-|-----------------------|-------------|------------------|-------|
-| 0 | **Diatonic** | C D E F G A B | 7 notes |
-| 1 | **Acoustic** | C D E F# G A Bb | 7 notes |
-| 2 | **Harmonic Major** | C D E F G Ab B | 7 notes |
-| 3 | **Harmonic Minor** | C D Eb F G Ab B | 7 notes |
-| 4 | **Whole Tone** | C D E F# G# A# | 6 notes, Messiaen Mode 1 |
-| 5 | **Octatonic** | C Db Eb E F# G A Bb | 8 notes, Messiaen Mode 2 |
-| 6 | **Hexatonic** | C D# E G Ab B | 6 notes |
+### 0. Diatonic (7 notes)
+```lilypond
+\relative c' { c d e f g a b c }
+```
+
+### 1. Acoustic (7 notes)
+Also known as Melodic Minor ascending, Lydian Dominant parent scale.
+```lilypond
+\relative c' { c d e fis g a bes c }
+```
+
+### 2. Harmonic Major (7 notes)
+```lilypond
+\relative c' { c d e f g aes b c }
+```
+
+### 3. Harmonic Minor (7 notes)
+```lilypond
+\relative c' { c d ees f g aes b c }
+```
+
+### 4. Whole Tone (6 notes) — Messiaen Mode 1
+Tone, tone, tone, tone, tone, tone. Two transpositions.
+```lilypond
+\relative c' { c d e fis gis ais c }
+```
+
+### 5. Octatonic (8 notes) — Messiaen Mode 2
+Semitone, tone repeating. Three transpositions.
+```lilypond
+\relative c' { c des ees e fis g a bes c }
+```
+
+### 6. Hexatonic (6 notes) — Augmented Scale
+Also known as the minor-third half-step scale. Semitone, minor third repeating. Four transpositions. Can be thought of as two interlocking augmented triads (C E G♯ + E♭ G B). Featured in Liszt's *Faust Symphony*, Shostakovich's *Second Piano Trio*, and extensively in jazz by Coltrane and Oliver Nelson.
+```lilypond
+\relative c' { c ees e g gis b c }
+```
 
 Unfortunately, **Ableton does not include Hexatonic** as one of its 35 scale options—yet it *does* include Messiaen modes 3-7, which are not pressing scales (they all contain consecutive semitones). This is a significant omission for anyone working with late-Romantic or post-tonal harmony.
 
