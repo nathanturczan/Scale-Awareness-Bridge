@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scale Awareness Bridge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #000;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            padding: 24px;
+            min-height: 100vh;
+        }
+        .header {
+            font-size: 18px;
+            font-weight: 400;
+            margin-bottom: 4px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+        .instructions {
+            font-size: 12px;
+            font-weight: 400;
+            color: #aaa;
+            line-height: 1.6;
+        }
+        .instructions p {
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Scale Navigator</div>
+    <div class="title">Ableton Scale Awareness Bridge</div>
+    <div class="instructions">
+        <p>* Setup:</p>
+        <p>1. In Dashboard Plugin, add two MIDI outputs: Scale Root and Ableton Scale Awareness</p>
+        <p>2. Set both to the same IAC Driver port and channel</p>
+        <p>3. In Ableton, drop this device on a MIDI track</p>
+        <p>4. Set MIDI From to that IAC Driver port/channel</p>
+        <p>5. Turn Monitor on</p>
+    </div>
+    <script>
+        // Max/MSP communication
+        if (window.max) {
+            window.max.bindInlet("root", function(name) {
+                // Could display root if needed in the future
+            });
+            window.max.bindInlet("scale", function(name) {
+                // Could display scale if needed in the future
+            });
+        }
+    </script>
+</body>
+</html>
