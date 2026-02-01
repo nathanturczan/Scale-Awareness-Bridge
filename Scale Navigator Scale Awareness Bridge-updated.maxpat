@@ -23,9 +23,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 5.0, 5.0, 550.0, 220.0 ],
+					"patching_rect" : [ 5.0, 5.0, 400.0, 145.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 550.0, 220.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 400.0, 145.0 ],
 					"url" : "ui-mockup.html"
 				}
 			},
