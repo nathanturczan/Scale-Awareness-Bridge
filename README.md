@@ -31,7 +31,7 @@ The seven pressing scales are:
 ```
 
 ### 1. Acoustic (7 notes)
-Also known as Melodic Minor ascending, Lydian Dominant parent scale.
+Also known as Lydian Dominant (Melodic Minor ascending is a mode of the same collection).
 ```lilypond
 \relative c' { c d e fis g a bes c }
 ```
@@ -89,9 +89,9 @@ Scale Navigator uses a clean 7-index system for scale classes. But to communicat
 | 14 | Harmonic Major | Harmonic Major | Yes |
 | 15 | Dorian #4 | Harmonic Minor | ~~redundant~~ |
 | 16 | Phrygian Dominant | Harmonic Minor | ~~redundant~~ |
-| 17 | Melodic Minor | Acoustic | Yes |
+| 17 | Melodic Minor | Acoustic | ~~redundant~~ |
 | 18 | Lydian Augmented | Acoustic | ~~redundant~~ |
-| 19 | Lydian Dominant | Acoustic | ~~redundant~~ |
+| 19 | Lydian Dominant | Acoustic | Yes |
 | 20 | Super Locrian | Acoustic | ~~redundant~~ |
 | 21 | 8-Tone Spanish | Octatonic | ~~redundant~~ |
 | 22 | Bhairav | Harmonic Major | ~~redundant~~ |
